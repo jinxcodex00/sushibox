@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./public/sushi.png" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/sushi.png" />
+    <link rel="stylesheet" href="/css/style.css">
     <title>Sushibowl</title>
   </head>
   <body>
@@ -29,13 +30,21 @@
             <a href="#about-us">About Us</a>
           </li>
           <li>
-            <img src="assets/search.svg" alt="search" />
+            <img src="/assets/search.svg" alt="search" />
           </li>
         </ul>
 
         <ul class="header__menu-mobile" data-aos="fade-down">
           <li>
-            <img src="assets/menu.svg" alt="menu" />
+            <img src="/assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="/assets/menu.svg" alt="menu" />
           </li>
         </ul>
       </nav>
@@ -43,8 +52,9 @@
 
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/sushi-1.png" alt="sushi" data-aos="fade-up" />
-        <h2 data-aos="fade-up">
+        <img src="/assets/sushi-1.png" alt="sushi" data-aos="fade-up" 
+        class="aos-init aos-animate">
+        <h2 data-aos="fade-up" class="aos-init aos-animate">
           日 <br />
           本 <br />
           食
@@ -64,7 +74,7 @@
           <div class="hero-content__buttons">
             <button class="hero-content__order-button">Order Now</button>
             <button class="hero-content__play-button">
-              <img src="assets/play-circle.svg" alt="play" />
+              <img src="/assets/play-circle.svg" alt="play" />
               How to Order
             </button>
           </div>
@@ -77,7 +87,7 @@
           </div>
 
           <div class="hero-content__review">
-            <img src="assets/user.png" alt="user" />
+            <img src="/assets/user.png" alt="user" />
             <p>
               "This is the best Japanese food delivery service that ever
               existed."
@@ -90,17 +100,17 @@
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-sushi3">
-          <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
+          <img src="/assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
         </div>
 
         <button class="about-us__button">
           Learn More
 
-          <img src="assets/arrow-up-right.svg" alt="learn more" />
+          <img src="/assets/arrow-up-right.svg" alt="learn more" />
         </button>
 
         <div class="about-us__image-sushi2">
-          <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right" />
+          <img src="/assets/sushi-2.png" alt="sushi" data-aos="fade-right" />
         </div>
       </div>
 
@@ -117,6 +127,6 @@
       </div>
     </section>
 
-    <script src="./js/script.js" type="module"></script>
+    <script src="/js/script.js" type="module"></script>
   </body>
 </html>
