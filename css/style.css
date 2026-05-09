@@ -313,7 +313,7 @@ a {
   }
 
   .trending__content {
-    padding: 32px;
+    padding: 32px 48px;
   }
 }
 /* END: trending media queries */
