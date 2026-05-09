@@ -163,7 +163,6 @@ a {
 }
 /* END: about us media queries */
 
-
 /* START: header media querie */
 @media screen and (max-width: 900px) {
   .header__nav {
@@ -289,7 +288,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
