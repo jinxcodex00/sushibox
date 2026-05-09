@@ -161,12 +161,12 @@
 }
 
 .trending__arrow-top {
-  top: -10.5px;
+  top: -2.5px;
   left: 12%;
 }
 
 .trending__arrow-bottom {
-  bottom: -10.5px;
+  bottom: -2.5px;
   right: 12%;
 }
 
@@ -177,6 +177,6 @@
 }
 
 .trending__arrow-right {
-  right: -10.5px;
+  right: -5px;
   bottom: 12%;
 }
